@@ -5,7 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import FormField from '@/components/FormField';
 import CustomButton from '@/components/CustomButton';
 
-const Index = () => {
+const newPassword = () => {
     return (
         <KeyboardAvoidingView
             style={{ flex: 1 }}
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Index;
+export default newPassword;
